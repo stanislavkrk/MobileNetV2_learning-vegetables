@@ -32,15 +32,13 @@ Trains a MobileNetV2-based neural network to classify vegetables.
 Supports data augmentation to improve robustness.
 
 - Feature Extraction and Clustering:
-
-Extracts features from trained images.
-Uses K-Means clustering to group vegetables into clusters based on feature similarity.
+  - Extracts features from trained images.
+  - Uses K-Means clustering to group vegetables into clusters based on feature similarity.
 
 - Real-Time Detection:
-
-Recognizes vegetables in video streams.
-Draws bounding boxes and displays the class, cluster, and confidence level.
-Ignores low-confidence predictions.
+  - Recognizes vegetables in video streams.
+  - Draws bounding boxes and displays the class, cluster, and confidence level.
+  - Ignores low-confidence predictions.
 
 # Folders tree
 vegetable-recognition/
