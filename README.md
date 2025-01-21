@@ -11,6 +11,8 @@ Files:
 Created a vegetable dictionary for recognition (saved in a separate file).
 
 - cluster_kmeans - based on the trained model, clustering of vegetables was performed using Kmeans (saved in a separate file).
+  
+- vegetable_model.h5 - trained model. You don`t need to train model again, use this file for recognizing.
 
 - pytube_download - a script was created that downloads a video from YouTube for recognition. The script has several links to different vegetables, you can select any and download it. By default, broccoli is loaded. You can also switch to manual link input by the user.
 
