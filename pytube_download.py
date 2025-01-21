@@ -2,7 +2,7 @@ import os
 
 def download_video():
     # URL відео
-    url_text = input("Введіть url відео з YouTube для завантаження: ")
+    #url_text = input("Введіть url відео з YouTube для завантаження: ")
     video_url = "https://www.youtube.com/watch?v=OxLWJ3iZLyg"  # Брокколі
     # video_url = "https://www.youtube.com/watch?v=RW4XMYz4cUA"    #перець
     # video_url = "https://www.youtube.com/watch?v=0uiO04BunRU"    #картопля
