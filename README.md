@@ -1,4 +1,4 @@
-# MobileNetV2_learning-vegetables-
+# MobileNetV2_learning-vegetables
 MobileNetV2 learning to recognize vegetables in video flow.
 
 dataset: https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset 
