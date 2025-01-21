@@ -1,6 +1,8 @@
 # MobileNetV2_learning-vegetables-
 MobileNetV2 learning to recognize vegetables in video flow.
 
+dataset: https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset 
+
 This project implements a system for recognizing vegetables in video streams and assigning them to clusters based on their similarities. It includes training a neural network, clustering features, and detecting objects in video.
 
 Features
