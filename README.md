@@ -16,7 +16,7 @@ Created a vegetable dictionary for recognition (saved in a separate file).
 
 - vegetable_clusters.json - a file with the results of clustering using the trained model.
 
-- class_indices - dictionary of vegetables, wrote by model after training
+- class_indices.json - dictionary of vegetables, wrote by model after training
 
 - pytube_download - a script was created that downloads a video from YouTube for recognition. The script has several links to different vegetables, you can select any and download it. By default, broccoli is loaded. You can also switch to manual link input by the user.
 
