@@ -24,12 +24,12 @@ Draws bounding boxes and displays the class, cluster, and confidence level.
 Ignores low-confidence predictions.
 
 vegetable-recognition/
-|-- train/                 # Training dataset
-|-- val/                   # Validation dataset
-|-- vegetable_model.h5     # Trained model file
-|-- class_indices.json     # Mapping of class names to indices
-|-- vegetable_clusters.json # Mapping of classes to clusters
-|-- train_model.py         # Script for training the model
-|-- extract_features.py    # Script for feature extraction and clustering
-|-- recognize_video.py     # Script for real-time vegetable detection in video
-|-- README.md              # Project documentation
+- |-- train/                 # Training dataset
+- |-- val/                   # Validation dataset
+- |-- vegetable_model.h5     # Trained model file
+- |-- class_indices.json     # Mapping of class names to indices
+- |-- vegetable_clusters.json # Mapping of classes to clusters
+- |-- train_model.py         # Script for training the model
+- |-- extract_features.py    # Script for feature extraction and clustering
+- |-- recognize_video.py     # Script for real-time vegetable detection in video
+- |-- README.md              # Project documentation
