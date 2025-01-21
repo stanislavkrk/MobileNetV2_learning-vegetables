@@ -14,6 +14,10 @@ Created a vegetable dictionary for recognition (saved in a separate file).
   
 - vegetable_model.h5 - trained model. You don`t need to train model again, use this file for recognizing.
 
+- vegetable_clusters.json - a file with the results of clustering using the trained model.
+
+- class_indices - dictionary of vegetables, wrote by model after training
+
 - pytube_download - a script was created that downloads a video from YouTube for recognition. The script has several links to different vegetables, you can select any and download it. By default, broccoli is loaded. You can also switch to manual link input by the user.
 
 - video_recognizer - a script for directly recognizing vegetables in a video stream.
