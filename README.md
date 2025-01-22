@@ -8,10 +8,10 @@ This project implements a system for recognizing vegetables in video streams and
 
 # Files
 
-- learning_MobileNetV2 - MobileNetV2 neural network is trained on the dataset data, I add the file of weights as a separate file.
+- learning_MobileNetV2.py - MobileNetV2 neural network is trained on the dataset data, I add the file of weights as a separate file.
 Created a vegetable dictionary for recognition (saved in a separate file).
 
-- cluster_kmeans - based on the trained model, clustering of vegetables was performed using Kmeans (saved in a separate file).
+- cluster_kmeans.py - based on the trained model, clustering of vegetables was performed using Kmeans (saved in a separate file).
   
 - vegetable_model.h5 - trained model weights. You don`t need to train model again, use this file for recognizing.
 
@@ -19,9 +19,9 @@ Created a vegetable dictionary for recognition (saved in a separate file).
 
 - class_indices.json - dictionary of vegetables, wrote by model after training
 
-- pytube_download - a script was created that downloads a video from YouTube for recognition. The script has several links to different vegetables, you can select any and download it. By default, broccoli is loaded. You can also switch to manual link input by the user.
+- pytube_download.py - a script was created that downloads a video from YouTube for recognition. The script has several links to different vegetables, you can select any and download it. By default, broccoli is loaded. You can also switch to manual link input by the user.
 
-- video_recognizer - a script for directly recognizing vegetables in a video stream.
+- video_recognizer.py - a script for directly recognizing vegetables in a video stream.
 
 - main - a file for selecting the above functions through a user-friendly interface.
 
