@@ -23,7 +23,7 @@ Created a vegetable dictionary for recognition (saved in a separate file).
 
 - video_recognizer.py - a script for directly recognizing vegetables in a video stream.
 
-- main - a file for selecting the above functions through a user-friendly interface.
+- main.py - a file for selecting the above functions through a user-friendly interface.
 
 # Features
 
