@@ -8,12 +8,12 @@ This project implements a system for recognizing vegetables in video streams and
 
 # Files
 
-- learning_MobileNetV2 - MobileNetV2 neural network is trained on the dataset data, I add the file of weights as a separate link.
+- learning_MobileNetV2 - MobileNetV2 neural network is trained on the dataset data, I add the file of weights as a separate file.
 Created a vegetable dictionary for recognition (saved in a separate file).
 
 - cluster_kmeans - based on the trained model, clustering of vegetables was performed using Kmeans (saved in a separate file).
   
-- vegetable_model.h5 - trained model. You don`t need to train model again, use this file for recognizing.
+- vegetable_model.h5 - trained model weights. You don`t need to train model again, use this file for recognizing.
 
 - vegetable_clusters.json - a file with the results of clustering using the trained model.
 
